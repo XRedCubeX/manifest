@@ -12,7 +12,7 @@ Initialize a repository from LineageOS:
 Add local manifest and sync:
 
 	mkdir -p .repo/local_manifests
-	curl https://raw.githubusercontent.com/M2Repos/manifest/lineage-17.1/mblu2.xml -o .repo/local_manifests/mblu2.xml
+	curl https://raw.githubusercontent.com/XRedCubeX/manifest/lineage-17.1/mblu2.xml -o .repo/local_manifests/mblu2.xml
 	repo sync
  
 Build the code:
